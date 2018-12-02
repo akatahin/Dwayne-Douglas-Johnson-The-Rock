@@ -1,0 +1,89 @@
+h1{
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+}   
+
+.header, .donate, .motto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header {
+    color: Crimson;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_the_U.S..svg) center DimGray no-repeat;
+}
+
+.donate {
+    background: url("https://media.giphy.com/media/3oKIPAAK6GNOKSXAQg/giphy.gif") black no-repeat center;
+    color: yellow;
+}
+.donate button {
+    width: 350px;   
+    height: 75px;
+    font-size: 30px;
+    background: black;
+    color: yellow;
+    border-radius: 5px;
+    border: double yellow 5px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.donate button:hover {
+    background: yellow;
+    color: black;
+    border:  double black 5px;
+}
+
+.motto {
+    background: LightSeaGreen;
+    color: white;
+}
+
+.photo img{
+    width: 25%;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+          transition:         transform 1s ease-in-out;
+}
+
+.photo img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}          
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    background: DimGray;
+    border: double 6px DarkKhaki;
+}
+
+.one {
+    text-shadow: 4px 4px navy;
+}
+
+.two {
+    text-shadow: 3px 3px black;
+}
+
+.three {
+    text-shadow: 3px 3px LightCoral;
+}
+
+.navy {
+    color: navy;
+}
